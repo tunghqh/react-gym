@@ -1,0 +1,51 @@
+.exercies-video {
+  margin-top: 40px;
+  padding: 20px;
+}
+.video__header {
+  margin-bottom: 33px;
+  font-size: 2.6rem;
+  font-weight: 400;
+
+  span {
+    color: var(--primary);
+    text-transform: capitalize;
+  }
+
+  @media screen and (max-width: 420px) {
+    font-size: 1.6rem;
+  }
+}
+.video__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 60px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+
+  img {
+    width: 400px;
+    height: 300px;
+
+    @media screen and (max-width: 840px) {
+      width: 307px;
+      height: 264px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    justify-content: center;
+    margin: 0;
+  }
+}
+.video__info {
+  margin-top: 6px;
+  width: 300px;
+
+  p:nth-child(2) {
+    font-size: 1.4rem;
+    margin-top: 6px;
+    color: var(--primary);
+  }
+}

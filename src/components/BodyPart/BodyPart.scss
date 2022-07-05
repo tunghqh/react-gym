@@ -1,0 +1,41 @@
+.bodypart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 60px;
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  width: 220px;
+  height: 200px;
+  cursor: pointer;
+  gap: 47px;
+  transition: all 0.2s ease;
+  opacity: 0.6;
+  margin-left: -16px;
+
+  // &:hover {
+  //   width: 84px;
+  //   height: 80px;
+  // }
+}
+.active {
+  opacity: 1;
+}
+.bodypart__icon {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    width: 120px;
+    height: 120px;
+  }
+}
+.bodypart__item {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--black);
+  text-transform: capitalize;
+}
